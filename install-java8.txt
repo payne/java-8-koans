@@ -1,0 +1,11 @@
+Here is a note about how to install java8 on c9.io
+
+    6  which javac
+    7  sudo apt-get install openjdk-8-jdk
+    8  sudo add-apt-repository ppa:openjdk-r/ppa
+    9  sudo apt-get update
+   10  sudo apt-get install openjdk-8-jdk
+   11  sudo update-alternatives --config java
+   12  sudo update-alternatives --config javac
+   13  mvn test
+   14  history | tail -33 | tee install-java8.txt
